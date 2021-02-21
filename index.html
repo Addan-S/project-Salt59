@@ -17,9 +17,10 @@
   <body>
 
     <!-- //////////////////////////// NavBar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+    <div id="er">
     <div class="pos-f-t">
         <!-- Nav Toggler Button -->
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark" id="nav-btn">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,39 +59,40 @@
             </div>
         </div>
         <!-- NavBar Content -->
-
-       
+    </div>
     </div>
     <!-- //////////////////////////// NavBar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
     <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Images/blizzard.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/clean.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/salt.jpeg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./Images/blizzard.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./Images/clean.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./Images/salt.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+    </div>
     <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
@@ -159,7 +161,7 @@
             </li>
         </ul>
     </div>
-    <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+    <!-- //////////////////////////// Social Media Links \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
     <!-- //////////////////////////// Bootstrap Scripts \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->

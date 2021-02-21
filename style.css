@@ -49,15 +49,44 @@ body {
 }
 /* Landing Page Styles */
 
+
+
 /* NavBar Styles */
 
 #nav-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    height: 5em;
+    
+}
+
+
+#nav-btn {
+    z-index: 999;
+    padding: 0.5em;
+}
+
+#navbarToggleExternalContent {
+    position: relative;
+    bottom: 4.5em;
 }
 
 /* NavBar Styles */
+
+
+
+
+/* Carousel Styles */
+
+#carousel {
+    position: relative;
+    bottom: 4.5em;
+}
+
+
+
 
 /* Social Media Styles  */
 
