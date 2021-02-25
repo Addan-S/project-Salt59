@@ -49,35 +49,62 @@ body {
 }
 /* Landing Page Styles */
 
+
+
 /* NavBar Styles */
 
-#nav-content {
+#nav-container {
+    border: 2px solid red;
+
+}
+
+#nav-element {
+    padding: 0.5em;
+    opacity: 5;
+}
+
+
+#nav-link-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-end;
     margin-bottom: 0px;
     height: 5em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
     
 }
 
 
-#nav-btn {
-    z-index: 999;
-    padding: 0.5em;
+#nav-link {
+    color: white;
+    text-decoration: none;
 }
 
-#navbarToggleExternalContent {
+#nav-link:hover {
+    font-size: 1.501em;
+    transition-duration: 1.3s;
+    color: #22C3D0
+}
+
+#nav-dropdown-link {
+    color: black;
+}
+
+/* #navbarToggleExternalContent {
     position: relative;
     bottom: 4.5em;
-}
+} */
 
 /* NavBar Styles */
 
+
+
 /* Carousel Styles */
 
-#carousel {
-    position: relative;
-    bottom: 4.5em;
+#carouselExampleCaptions {
+    margin-top: 0em;
 }
 
 /* Carousel Styles */
@@ -198,7 +225,7 @@ ul {
     border-color: red;
     box-shadow: 0 0 0 0rem red
 }
-}
+
 
 .review-button:active {
     color: #fff;
