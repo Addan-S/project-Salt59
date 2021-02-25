@@ -58,7 +58,14 @@ body {
     font-size: 3em;
     color: #22C3D0;
     /* border: 2px solid red; */
-    width: 27em;
+}
+
+#landing-link {
+    text-decoration: none;
+}
+
+#landing-link:hover {
+    font-size: 1em;
 }
 
 #nav-container {
