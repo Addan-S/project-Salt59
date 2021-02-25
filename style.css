@@ -53,9 +53,18 @@ body {
 
 /* NavBar Styles */
 
-#nav-container {
-    border: 2px solid red;
+#nav-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3em;
+    color: #22C3D0;
+    /* border: 2px solid red; */
+    width: 27em;
+}
 
+#nav-container {
+  z-index: 999;  
+  position: fixed;
+  width: 90em;
 }
 
 #nav-element {
@@ -83,9 +92,9 @@ body {
 }
 
 #nav-link:hover {
-    font-size: 1.501em;
+    font-size: 1.50em;
     transition-duration: 1.3s;
-    color: #22C3D0
+    color: #22C3D0;
 }
 
 #nav-dropdown-link {
