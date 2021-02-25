@@ -14,47 +14,52 @@
 
     <script src="https://kit.fontawesome.com/facca15ded.js" crossorigin="anonymous"></script>
 
+    <!-- Nav-Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
     <title>SALT59®</title>
   </head>
   <body>
 
     <!-- //////////////////////////// NavBar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-    <div id="er">
+    <div id="nav-container">
     <div class="pos-f-t">
         <!-- Nav Toggler Button -->
-        <nav class="navbar navbar-dark bg-dark" id="nav-btn">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav id="nav-element" class="navbar navbar-dark bg-dark">
+            <button id="nav-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
+              <img id="nav-btn-img" src="./Images/down-arrow.svg" height="25px" width="25px">
             </button>
         </nav>
         <!-- Nav Toggler Button -->
 
         <!-- NavBar Content -->
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4"></div>
-                    <ul class="bg-dark p-4" id="nav-content">
+            <div class="bg-dark"></div>
+                    <ul class="bg-dark p-4" id="nav-link-container">
                         <li>
-                            <a href="https://google.com">Home</a>
+                            <a id="nav-link" href="https://google.com">Home</a>
                         </li>
                         <li>
-                            <a data-toggle="dropdown" href="/#" role="button" aria-haspopup="true" aria-expanded="false">Professional Cleaning Services</a>
+                            <a id="nav-link" data-toggle="dropdown" href="/#" role="button" aria-haspopup="true" aria-expanded="false">Professional Cleaning Services</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/#">Commercial</a>
+                                <a id="nav-dropdown-link" class="dropdown-item" href="/#">Commercial</a>
             
                                 <div class="dropdown-divider"></div>
 
-                                <a class="dropdown-item" href="/#">Residential</a>
+                                <a id="nav-dropdown-link" class="dropdown-item" href="/#">Residential</a>
 
                             </div>
                         </li>
                         <li>
-                            <a href="/#">Snow/Ice Removal</a>
+                            <a id="nav-link" href="/#">Snow/Ice Removal</a>
                         </li>
                         <li>
-                            <a href="/#">Testimonials</a>
+                            <a id="nav-link" href="/#">Testimonials</a>
                         </li>
                         <li>
-                            <a href="/#">About</a>
+                            <a id="nav-link" href="/#">About</a>
                         </li>
     
                     </ul>
@@ -104,7 +109,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
     <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
@@ -132,16 +137,23 @@
    <!--Carousel Scripts-->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
    <!--Carousel Scripts-->
+
+   <script src="./app.js"></script>
+
+   <!-- Review Section -->
    <div class="card text-center py-4">
     <h5 class="card-heading">Thanks for your feedback</h5>
-    <div class="ratings mt-3"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+    <div class="ratings mt-3"> 
+      <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
     <div class="review mt-5 mb-5">
         <h6>you can also write reviews</h6>
     </div> <button class="btn btn-success mb-2 review-button">Write a review</button> <button class="btn btn-outline-primary later">Sure, but later</button>
-</div>
+   </div>
+   <!-- Review Section -->
+
    <!-- //////////////////////////// Bootstrap Scripts \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
-    <!-- <script src="./app.js"></script> -->
+    
   </body>
 </html>
