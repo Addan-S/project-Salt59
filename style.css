@@ -1,6 +1,11 @@
 /* Landing Page Styles */
+
+body {
+    min-height: 2000px;
+    
 .landing-body {
     min-height: 10000px;
+
 }
 
 #landing-header {
@@ -182,7 +187,6 @@
 
 ul {
     list-style: none;
-    display: flex
 }
 
 .social-icon {
@@ -193,7 +197,7 @@ ul {
     align-items: center;
     color: #fff;
     font-size: 27px;
-    margin-right: 11px;
+    margin: 5px;
     cursor: pointer;
     border-radius: 50%;
 }
@@ -246,10 +250,13 @@ ul {
 .card {
     position: relative;
     display: flex;
+    align-items: center;
     padding: 20px;
     flex-direction: column;
     min-width: 0;
+    margin: 1em;
     width: 400px;
+    height: 375px;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
@@ -316,3 +323,10 @@ ul {
 }
 
 /* Ratings Styles */
+
+.customerExp{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding:1em;
+    }
