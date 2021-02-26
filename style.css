@@ -186,6 +186,15 @@ body {
 
 /* Social Media Styles  */
 
+.customerExp{
+    border: 2px solid red;
+    margin: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding:1em;
+    }
+
 ul {
     list-style: none;
 }
@@ -326,9 +335,16 @@ ul {
 
 /* Ratings Styles */
 
-.customerExp{
+
+/* Footer Styles */
+
+#footer {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    padding:1em;
-    }
+    position: relative;
+    top: 71em;
+    justify-content: center;
+    border: 2px solid orange; 
+    height: 3em;
+}
+
+/* Footer Styles */
