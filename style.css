@@ -1,7 +1,11 @@
 /* Landing Page Styles */
+
 body {
     min-height: 2000px;
     
+.landing-body {
+    min-height: 10000px;
+
 }
 
 #landing-header {
@@ -125,6 +129,59 @@ body {
 }
 
 /* Carousel Styles */
+
+
+
+/* Home Page Main Body Styles  */
+
+.main-body-home {
+    border: 2px solid green;
+    height: 2000px;
+    /* background-image: url(./Images/50\ Shades\ of\ Grey.jpg); */
+}
+
+
+
+/* Home Page Main Body Styles  */
+
+
+
+/* Promotions Styles */
+
+#promo-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0.5em;
+}
+
+.promo-section-container {
+    /* border: 2px solid blue; */
+    margin: 1em; 
+    height: 20em;
+    box-shadow: lightgray 2px 1px 5px 5px;
+    transition-duration: 0.5s;
+}
+
+.promo-section-container:hover {
+    box-shadow: gray 4px 2px 7px 7px;
+    transition-duration: 1s;
+}
+
+.promo-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    margin: 1em;
+    height: 16em;
+}
+
+/* Promotions Styles */
+
+
+
+
 
 /* Social Media Styles  */
 
