@@ -199,6 +199,7 @@ ul {
     color: #fff;
     font-size: 27px;
     margin: 5px;
+    margin-right: 1em;
     cursor: pointer;
     border-radius: 50%;
 }
