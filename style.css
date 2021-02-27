@@ -1,7 +1,7 @@
 /* Landing Page Styles */
 
-body {
-    min-height: 2000px;
+#main-body-home {
+    min-height: 100px;
 }
     
 .landing-body {
@@ -144,8 +144,10 @@ body {
 /* Home Page Main Body Styles  */
 
 .main-body-home {
-    border: 2px solid green;
-    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    height: 2300px;
     background-color: #EFF8FE;
     /* background-image: url(./Images/50\ Shades\ of\ Grey.jpg); */
 }
@@ -348,15 +350,23 @@ ul {
 /* Footer Styles */
 
 #footer {
+    position: relative;
+    top: 30.1em;
     background-color: #212629;
     color: white;
     display: flex;
-    position: relative;
-    top: 71em;
+    /* top: 71em; */
     justify-content: center;
     /* border: 2px solid orange;  */
-    height: 3em;
+    height: 4em;
     width: 100vw;
+}
+
+#footer-copRight-text {
+    /* border: 2px solid white; */
+    margin: 1em;
+    display: flex;
+    align-items: center;
 }
 
 /* Footer Styles */
@@ -373,5 +383,8 @@ ul {
        justify-content: center;
         height: 900px;
         width: 900px;
+        border: 2px solid green;
+        margin: 1em;
+        width: 97.6vw;
     }
 
