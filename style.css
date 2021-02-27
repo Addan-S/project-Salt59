@@ -366,3 +366,10 @@ ul {
         font-family:sans-serif;
     }
 
+    .background{
+        display: flex;
+       justify-content: center;
+        height: 900px;
+        width: 900px;
+    }
+
