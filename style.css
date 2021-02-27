@@ -102,12 +102,17 @@ body {
 #nav-link {
     color: white;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 #nav-link:hover {
     font-size: 1.50em;
     transition-duration: 1.3s;
     color: #22C3D0;
+}
+
+#dropdown-container:hover {
+    width: 10em;
 }
 
 #nav-dropdown-link {
