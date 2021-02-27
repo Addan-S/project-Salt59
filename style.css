@@ -359,14 +359,17 @@ ul {
 
 /* Footer Styles */
 
-justify-content: space-between;
-    flex-direction: row-reverse;
-    padding:1em;
-    }
 
     .slide1{
         color: #F8F7FF;
         opacity: 0.8;
         font-family:sans-serif;
+    }
+
+    .background{
+        display: flex;
+       justify-content: center;
+        height: 900px;
+        width: 900px;
     }
 
