@@ -138,6 +138,7 @@ body {
 .main-body-home {
     border: 2px solid green;
     height: 2000px;
+    background-color: #EFF8FE;
     /* background-image: url(./Images/50\ Shades\ of\ Grey.jpg); */
 }
 
@@ -159,6 +160,7 @@ body {
 
 .promo-section-container {
     /* border: 2px solid blue; */
+    background-color: white;
     margin: 1em; 
     height: 20em;
     box-shadow: lightgray 2px 1px 5px 5px;
@@ -185,6 +187,16 @@ body {
 
 
 /* Social Media Styles  */
+
+.customerExp{
+    background-color: white;
+    border: 2px solid red;
+    margin: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding:1em;
+    }
 
 ul {
     list-style: none;
@@ -326,9 +338,23 @@ ul {
 
 /* Ratings Styles */
 
-.customerExp{
+
+/* Footer Styles */
+
+#footer {
+    background-color: #212629;
+    color: white;
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    top: 71em;
+    justify-content: center;
+    /* border: 2px solid orange;  */
+    height: 3em;
+}
+
+/* Footer Styles */
+
+justify-content: space-between;
     flex-direction: row-reverse;
     padding:1em;
     }
@@ -338,3 +364,4 @@ ul {
         opacity: 0.8;
         font-family:sans-serif;
     }
+
