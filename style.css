@@ -57,6 +57,7 @@ body {
 
 
 
+
 /* NavBar Styles */
 
 #nav-title {
@@ -128,6 +129,7 @@ body {
 
 
 
+
 /* Carousel Styles */
 
 #carouselExampleCaptions {
@@ -135,6 +137,7 @@ body {
 }
 
 /* Carousel Styles */
+
 
 
 
@@ -146,8 +149,6 @@ body {
     background-color: #EFF8FE;
     /* background-image: url(./Images/50\ Shades\ of\ Grey.jpg); */
 }
-
-
 
 /* Home Page Main Body Styles  */
 
@@ -186,8 +187,6 @@ body {
 }
 
 /* Promotions Styles */
-
-
 
 
 
@@ -263,6 +262,8 @@ ul {
 }
 
 /* Social Media Styles */
+
+
 
 /* Ratings Styles */
 
@@ -355,6 +356,7 @@ ul {
     justify-content: center;
     /* border: 2px solid orange;  */
     height: 3em;
+    width: 100vw;
 }
 
 /* Footer Styles */
