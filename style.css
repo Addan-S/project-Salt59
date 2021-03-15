@@ -86,6 +86,27 @@
     opacity: 5;
 }
 
+#nav-user-icons-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 31em;
+}
+
+#user-icon {
+    margin-top: 3px;
+    filter: brightness(0) saturate(100%) invert(66%) sepia(99%) saturate(374%) hue-rotate(132deg) brightness(83%) contrast(95%);
+}
+
+#appointment-icon {
+    margin-top: 3px;
+    filter: brightness(0) saturate(100%) invert(66%) sepia(99%) saturate(374%) hue-rotate(132deg) brightness(83%) contrast(95%);
+}
+
+#shop-cart-icon {
+    margin-top: 3px;
+    filter: brightness(0) saturate(100%) invert(66%) sepia(99%) saturate(374%) hue-rotate(132deg) brightness(83%) contrast(95%);
+}
 
 #nav-link-container {
     display: flex;
