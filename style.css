@@ -57,6 +57,21 @@
 
 
 
+/* Book Now Modal */
+#book-now-container {
+    /* border: 2px solid blueviolet; */
+    width:7.19999em;
+    background-color: #22C3D0;
+    z-index: 998;
+    position: fixed;
+    top: 25em;
+    left: 83.7em;
+}
+/* Book Now Modal */
+
+
+
+
 
 /* NavBar Styles */
 
@@ -76,7 +91,7 @@
 }
 
 #nav-container {
-  z-index: 999;  
+  z-index: 997;  
   position: fixed;
   width: 90em;
 }
