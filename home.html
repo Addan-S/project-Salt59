@@ -25,7 +25,37 @@
   </head>
   <body class="home-body">
 
-    <!-- //////////////////////////// NavBar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+  <!-- //////////////////////////// Book Now Modal \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+    <div id="book-now-container" style="opacity: 80%;">
+      <!------------------ Button to trigger Modal --------------->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background-color:#22C3D0; color: black; border: none; font-family: 'Playfair Display SC', serif;">
+        Book Now!
+      </button>
+
+      <!--------------------------- Modal ------------------------>
+      <div style="z-index: 999;" class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">*While we work on some awesome features for you on our site, we can only accept appointments through Email or Telephone*</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Phone: 888-888-8888 <br>
+              Email: example@gmail.com
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Thank You!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- //////////////////////////// Book Now Modal \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
+    
+  <!-- ///////////////////////////////// NavBar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
     <div id="nav-container" style="opacity: 90%;">
     <div class="pos-f-t">
         <!-- Nav Toggler Button -->
@@ -85,10 +115,10 @@
         <!-- NavBar Content -->
     </div>
     </div>
-    <!-- //////////////////////////// NavBar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+  <!-- //////////////////////////// NavBar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
-    <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+  <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -129,12 +159,10 @@
           <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-
+  <!-- //////////////////////////// Carousel Slide \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 <div class="main-body-home">
  <!-- ///////////////////////////////// Promotions \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-
     <div class="promo-section-container">
         <h3 id="promo-header">Don't miss out on our current offers!</h3>
         <div class="promo-container">
@@ -157,18 +185,19 @@
           </div>
         </div>
     </div>
+  <!-- ///////////////////////////////// Promotions \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
-    <!-- ///////////////////////////////// Promotions \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-
+  <!-- ///////////////////////////////// Parallax Area \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
     <div class="background">
       <img src="./Images/salt59back.png" alt="">
     </div>
+  <!-- ///////////////////////////////// Parallax Area \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
         
 
-    <div class="customerExp">
-      <!-- //////////////////////////// Social Media Links \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-        
+  <div class="customerExp">
+    <!-- //////////////////////////// Social Media Links \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->  
       <div class="d-flex flex-column align-items-center">
         <h4 class="mb-4">Follow us</h4>
         <ul>
@@ -178,9 +207,9 @@
         </ul>
     
       </div>
-        <!-- //////////////////////////// Social Media Links \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+    <!-- //////////////////////////// Social Media Links \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
         
-        <!-- //////////////////////////// Review Section \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- //////////////////////////// Review Section \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
         <div class="card text-center py-4" id="review-container">
             <h5 class="card-heading">Thanks for your feedback</h5>
             <div class="ratings mt-3"> 
@@ -189,14 +218,12 @@
             <h6>you can also write reviews</h6>
             </div> <button class="btn btn-success mb-2 review-button">Write a review</button> <button class="btn btn-outline-primary later">Sure, but later</button>
         </div>
-        <!-- //////////////////////////// Review Section \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-    </div>
+    <!-- //////////////////////////// Review Section \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  </div>
 
 
     <!-- //////////////////////////// Footer Section \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-
-    <footer id="footer"> <p id="footer-copRight-text">Copyright © Salt59, Inc.</p> </footer>
-
+      <footer id="footer"> <p id="footer-copRight-text">Copyright © Salt59, Inc.</p> </footer>
     <!-- //////////////////////////// Footer Section \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
 </div> 
